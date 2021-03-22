@@ -1,0 +1,53 @@
+/*-----------------PORTADA----------------*/
+.portada{
+    display: flex;
+    background: url("../../images/banner_inicio1.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'arial', sans-serif;
+}
+
+.portada .max-width{
+    margin: auto 0 auto 50px;
+}
+
+.portada .portada-content .text-1{
+    font-size: 27px;
+}
+
+.portada .portada-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.portada .portada-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.portada .portada-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+.portada .portada-content a{
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.portada .portada-content a:hover{
+    color: rgb(255, 255, 255);
+    background: #111;
+}
