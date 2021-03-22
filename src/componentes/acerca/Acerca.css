@@ -1,0 +1,47 @@
+/* estilos de sección sobre mí*/
+.about{
+    color:#fff;
+    background: #111;
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: rgb(255, 255, 255);
+    background:  #111;
+}
+.img_proy{
+    align-items: center
+}
+
