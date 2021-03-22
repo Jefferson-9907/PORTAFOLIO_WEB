@@ -1,0 +1,50 @@
+/* estilos de sección mis proyectos */
+.proyects{
+    color:#fff;
+    background: #111;
+}
+
+.subt{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'arial', sans-serif;
+}
+
+.proyects .subt:before{
+    background: crimson;
+}
+.proyects .subt::after{
+    background: #111;
+    content: "";
+}
+.proyects .proyects-content .left{
+    width: 40%;
+    margin: 20px;
+}
+.proyects .proyects-content .left img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;                                                                                                                                                                                                                                                                                                                                                                                                                 
+}
+.proyects .proyects-content .right{
+    width: 50%;
+    border: 15px;
+}
+.proyects .proyects-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+.proyects .proyects-content .right .text span{
+    color: rgb(255, 255, 255);
+}
+.proyects .proyects-content .right p{
+    text-align: justify;
+}
+.img_proy{
+    align-items: center
+
+}
